@@ -1,0 +1,7 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@formErrorBorder: #FF0000;
+@formErrorColor: #FF0000;
+@formErrorBackground: rgba(255,0,0,0.1);
+

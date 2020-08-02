@@ -1,0 +1,7 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@textColor: #fff;
+@margin: 0 0 1rem 0;
+@fontFamily: 'Varela Round', sans-serif;

@@ -1,0 +1,9 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@primaryColor: #ffffff;
+@pageBackground: #eff0f1;
+@emSize: 16px;
+@fontSize: 1em;
+@pageFont: 'Varela Round', sans-serif;

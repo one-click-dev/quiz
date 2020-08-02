@@ -1,0 +1,9 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.checkbox label, .ui.checkbox + label  {
+    color: @primaryColor !important;
+}
+
+ 
