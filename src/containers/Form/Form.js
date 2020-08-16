@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import classes from './Form.module.css';
 import { Link } from 'react-router-dom';
 import { Form, Grid, Header, Segment } from 'semantic-ui-react'
 
@@ -117,7 +118,7 @@ export default function FormComponent() {
                         error={checkboxError}
                     />
                     <p>
-                        <Link to='/datenschutz'>Zur Datenschutzbestimmungen</Link>
+                        <Link to='/datenschutz' className={classes.linkWhite}>Zur Datenschutzbestimmungen</Link>
                     </p>
                     <Form.Button
                         id='button'
