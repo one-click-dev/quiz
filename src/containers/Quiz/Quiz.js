@@ -163,7 +163,7 @@ function Quiz () {
         return (
             <div className={classes.Quiz}>
                 <div className={classes.QuizWrapper}>
-                    <Header size='huge' inverted color='primary' textAlign='center'>Quiz: Erste Hilfe beim Arbeitsunfall</Header>
+                    <Header size='huge' textAlign='center'>Quiz: Erste Hilfe beim Arbeitsunfall</Header>
                     {
                         isFinished // Quiz is finished
                             ? <FinishedQuiz
