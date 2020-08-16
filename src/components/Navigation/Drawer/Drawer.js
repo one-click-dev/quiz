@@ -23,7 +23,7 @@ export default function Drawer(props) {
                 return (
                     <li key={index}>
                         <NavLink
-                            props to={link.to}
+                            to={link.to}
                             exact={link.exact}
                             activeClassName={classes.active}
                             onClick={clickHandler}
