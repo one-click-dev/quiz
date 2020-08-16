@@ -25,13 +25,13 @@ export default function Guide() {
         <>
             <Header size='huge' textAlign='center'>Erste-Hilfe-Leitfaden</Header>
             <Grid container columns={2} centered className={classes.GuideGrid}>
-                {texts.map(text =>
-                    <Grid.Row>
-                        <Grid.Column key={text}>
+                {texts.map((text, index) =>
+                    <Grid.Row key={index}>
+                        <Grid.Column key={text.headerLeft}>
                             <Header as='h3' color='teal'>{text.headerLeft}</Header>
                             {text.textLeft}
                         </Grid.Column>
-                        <Grid.Column key={text}>
+                        <Grid.Column key={text.headerRight}>
                             <Header as='h3' color='teal'>{text.headerRight}</Header>
                             {text.textRight}
                         </Grid.Column>
